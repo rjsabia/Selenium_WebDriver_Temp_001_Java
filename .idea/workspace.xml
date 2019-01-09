@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a30d88c2-5cc6-4833-915e-d6eee1984275" name="Default Changelist" comment="" />
+    <list default="true" id="a30d88c2-5cc6-4833-915e-d6eee1984275" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MyFirstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MyFirstTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/MyFirstTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/MyFirstTest.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,9 +19,10 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/seleniumwebdrivertemplate001$MyFirstTest_testOne.ic" NAME="MyFirstTest.testOne Coverage Results" MODIFIED="1546499273405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/seleniumwebdrivertemplate001$MyFirstTest.ic" NAME="MyFirstTest Coverage Results" MODIFIED="1546978827555" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
@@ -30,8 +35,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/MyFirstTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="30" column="51" selection-start-line="30" selection-start-column="51" selection-end-line="30" selection-end-column="51" />
+            <state relative-caret-position="248">
+              <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
             </state>
           </provider>
         </entry>
@@ -44,6 +49,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -61,18 +69,17 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="20" />
-    <option name="y" value="43" />
+    <option name="x" value="30" />
+    <option name="y" value="23" />
     <option name="width" value="1348" />
     <option name="height" value="783" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -102,10 +109,12 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546500331022" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547068848913" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -123,7 +132,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.MyFirstTest">
+    <configuration name="MyFirstTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="seleniumwebdrivertemplate001" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MyFirstTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MyFirstTest.testOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="seleniumwebdrivertemplate001" />
       <option name="PACKAGE_NAME" value="" />
@@ -136,6 +153,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MyFirstTest" />
         <item itemvalue="JUnit.MyFirstTest.testOne" />
       </list>
     </recent_temporary>
@@ -154,21 +172,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MyFirstTest_testOne - 2019.01.02 at 23h 07m 55s.xml">
-      <configuration name="MyFirstTest.testOne" configurationId="JUnit" />
+    <history-entry file="MyFirstTest - 2019.01.08 at 13h 02m 44s.xml">
+      <configuration name="MyFirstTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyFirstTest_testOne - 2019.01.02 at 23h 20m 14s.xml">
-      <configuration name="MyFirstTest.testOne" configurationId="JUnit" />
+    <history-entry file="MyFirstTest - 2019.01.08 at 13h 07m 39s.xml">
+      <configuration name="MyFirstTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyFirstTest_testOne - 2019.01.02 at 23h 21m 11s.xml">
-      <configuration name="MyFirstTest.testOne" configurationId="JUnit" />
+    <history-entry file="MyFirstTest - 2019.01.08 at 13h 15m 48s.xml">
+      <configuration name="MyFirstTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyFirstTest_testOne - 2019.01.02 at 23h 22m 27s.xml">
-      <configuration name="MyFirstTest.testOne" configurationId="JUnit" />
+    <history-entry file="MyFirstTest - 2019.01.09 at 14h 53m 59s.xml">
+      <configuration name="MyFirstTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyFirstTest - 2019.01.09 at 14h 57m 03s.xml">
+      <configuration name="MyFirstTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyFirstTest - 2019.01.09 at 15h 00m 29s.xml">
+      <configuration name="MyFirstTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyFirstTest - 2019.01.09 at 15h 07m 45s.xml">
+      <configuration name="MyFirstTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyFirstTest - 2019.01.09 at 15h 08m 05s.xml">
+      <configuration name="MyFirstTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyFirstTest - 2019.01.09 at 15h 10m 25s.xml">
+      <configuration name="MyFirstTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyFirstTest - 2019.01.09 at 15h 15m 36s.xml">
+      <configuration name="MyFirstTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="20" y="43" width="1348" height="783" extended-state="0" />
+    <frame x="30" y="23" width="1348" height="783" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
@@ -176,19 +212,18 @@
       <window_info id="UI Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.22205207" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.23430322" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.3299566" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="3" visible="true" weight="0.3299566" />
+      <window_info anchor="bottom" id="Messages" order="3" visible="true" weight="0.18379161" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" />
       <window_info anchor="bottom" id="Debug" order="6" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="9" />
-      <window_info anchor="right" id="Coverage" sideWeight="0.5010799" side_tool="true" weight="0.32924962" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Theme Preview" order="1" />
       <window_info anchor="right" id="Maven" order="2" />
@@ -197,7 +232,8 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
-      <window_info anchor="right" id="Run" order="8" sideWeight="0.49892008" weight="0.32924962" />
+      <window_info anchor="right" id="Run" order="8" sideWeight="0.8034557" weight="0.32924962" />
+      <window_info anchor="right" id="Coverage" order="9" sideWeight="0.19654427" side_tool="true" weight="0.32924962" />
     </layout>
   </component>
   <component name="editorHistoryManager">
@@ -210,8 +246,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/MyFirstTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="30" column="51" selection-start-line="30" selection-start-column="51" selection-end-line="30" selection-end-column="51" />
+        <state relative-caret-position="248">
+          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
         </state>
       </provider>
     </entry>
