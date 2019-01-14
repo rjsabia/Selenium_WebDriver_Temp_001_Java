@@ -14,7 +14,7 @@ public class MyFirstTest {
 
     @Before
 
-    public void setup(){
+    public void setup() {
 
         //String pathToChromeDriver = " /Users/russellsabia/Desktop/Java_Projects/chromedriver";
 
@@ -28,20 +28,22 @@ public class MyFirstTest {
     }
 
     @After
-    public void teardown(){
+    public void teardown() {
         driver.close();
     }
 
     @Test
     public void testOne() {
-    //test will go here
+        //test will go here
 
         String searchParam = "Testing bot";
+        String searchParam2 = "F22 Raptor";
         String email = "rjsabia@gmail.com";
+        String url = "http://www.google.com";
 
         //example test using google
 
-        driver.navigate().to("http://www.google.com");
+        driver.navigate().to(url);
 
         //driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
@@ -57,6 +59,21 @@ public class MyFirstTest {
 
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 
+        driver.navigate().back();
+
+        driver.manage().timeouts().implicitlyWait(5,TimeUnit.SECONDS);
+
+        driver.navigate().back();
+
+        driver.manage().timeouts().implicitlyWait(5,TimeUnit.SECONDS);
+
+        driver.findElement(By.name("q")).sendKeys(searchParam2, Keys.ENTER);
+
+        driver.manage().timeouts().implicitlyWait(5,TimeUnit.SECONDS);
+
+        driver.findElement(By.xpath("//*[@id=\"hdtb-msb-vis\"]/div[2]/a")).click();
+
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
         // **************
         // example test with the ilendx site
