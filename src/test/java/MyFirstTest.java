@@ -35,13 +35,14 @@ public class MyFirstTest {
 
     @Test
     public void testOne() {
-        //test will go here
 
+        // testing parameters
         String searchParam = "Testing bot";
         String searchParam2 = "F22 Raptor";
         String email = "rjsabia@gmail.com";
         String url = "http://www.google.com";
 
+        // count parameters
         int sec = 5;
         int sleep = 3000;
 
