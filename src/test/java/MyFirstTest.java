@@ -2,6 +2,7 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -41,15 +42,20 @@ public class MyFirstTest {
         String email = "rjsabia@gmail.com";
         String url = "http://www.google.com";
 
+        int sec = 5;
+        int sleep = 3000;
+
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+
         //example test using google
 
         driver.navigate().to(url);
 
-        //driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(sec, TimeUnit.SECONDS);
 
         driver.findElement(By.name("q")).sendKeys(searchParam, Keys.ENTER);
 
-        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(sec, TimeUnit.SECONDS);
 
         driver.findElement(By.xpath("//*[@id=\"gb_70\"]")).click();
 
@@ -57,24 +63,32 @@ public class MyFirstTest {
 
         driver.findElement(By.xpath("//*[@id=\"identifierNext\"]/content/span")).click();
 
-        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(sec, TimeUnit.SECONDS);
 
         driver.navigate().back();
 
-        driver.manage().timeouts().implicitlyWait(5,TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(sec, TimeUnit.SECONDS);
 
         driver.navigate().back();
 
-        driver.manage().timeouts().implicitlyWait(5,TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(sec, TimeUnit.SECONDS);
 
         driver.findElement(By.name("q")).sendKeys(searchParam2, Keys.ENTER);
 
-        driver.manage().timeouts().implicitlyWait(5,TimeUnit.SECONDS);
-
         driver.findElement(By.xpath("//*[@id=\"hdtb-msb-vis\"]/div[2]/a")).click();
 
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(sec, TimeUnit.SECONDS);
 
+        js.executeScript("window.scrollBy(0, 500)");
+
+        //This forces a pause, not best practice, but good for me to see the test execute
+        try {
+            Thread.sleep(sleep);
+        } catch (InterruptedException ex) {
+            Thread.currentThread().interrupt();
+        }
+
+        //End Google Program test
         // **************
         // example test with the ilendx site
 
